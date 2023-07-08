@@ -1,0 +1,92 @@
+/* All and Active page component styles  */
+
+.AllTaskcontainer {
+    text-align: center;
+    margin: 20px auto;
+    position: relative;
+}
+
+.AllTaskcontainer .taskdetails input[type="text"] {
+    width: 380px;
+    padding: 10px 10px ;
+    border: 1px solid #828282;
+    border-radius: 10px;
+    margin-left: -3px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #828282;
+}
+
+.AllTaskcontainer form  input[type="text"]:focus {
+    border: none;
+    outline: 3px solid #2F80ED;
+}
+
+.AllTaskcontainer button {
+    padding: 10px 25px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #2F80ED;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.AllTaskcontainer .checkbox,
+.AllTaskcontainer .activeContainer {
+    position: absolute;
+    left: 30.5%;
+    padding: 20px 0px;
+}
+
+.AllTaskcontainer .checkbox .noTask,
+.AllTaskcontainer .activeContainer .noTask {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.AllTaskcontainer .checkbox .container,
+.AllTaskcontainer .activeContainer .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    margin: 10px 0px;
+}
+
+.AllTaskcontainer .checkbox .container .todoItem input[type="text"],
+.AllTaskcontainer .activeContainer .container .todoItem input[type="text"] {
+    width: 150px;
+    padding: 5px 5px ;
+    border: 1px solid #828282;
+    border-radius: 10px;
+    margin-left: 0px 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #828282;
+}
+
+.AllTaskcontainer .checkbox .container .todoItem input[type="text"]:focus,
+.AllTaskcontainer .activeContainer .container .todoItem input[type="text"]:focus {
+    border: none;
+    outline: 2px solid #2F80ED;
+}
+
+.AllTaskcontainer .checkbox .container .todoItem button,
+.AllTaskcontainer .activeContainer .container .todoItem button {
+    padding: 7px 10px;
+}
+
+
+

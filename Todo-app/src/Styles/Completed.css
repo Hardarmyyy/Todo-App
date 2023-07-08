@@ -1,0 +1,37 @@
+/* Completed page component styles  */
+
+.completed_container {
+    text-align: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.completed_container .noTask {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.completed_checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    margin: 10px auto;
+}
+
+.completed_checkbox label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #333333;
+}
+
+.completed_checkbox .icon {
+    color: #BDBDBD;
+    font-size: 24px;
+    cursor: pointer;
+} 
